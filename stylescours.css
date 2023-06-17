@@ -1,0 +1,137 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/*Reset*/
+
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+body {	
+	
+	background-size: 100%;
+	background-image: url(../images/fond.png);
+	background-repeat: no repeat;
+}
+	
+	/*height: 1000px;*/
+	
+
+
+ #triangle {
+	position: absolute;
+	bottom: 320px;
+	left: 358px;
+	width: 50%;
+	height: 250px;
+}
+
+header {
+	width: 100%;
+	height: 270px;
+	text-align: center;
+	font: bold 30px bodoni;
+
+}
+
+
+h1 {
+	position : absolute;
+	margin: -10px;
+	top: 190px;
+	left: 600px;
+	width: 20%;
+	height: 70%;
+	color: #8b6d38;
+	text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black;
+
+}
+
+#menu {
+	position: relative;
+	top: 420px;
+	right: 30px;	
+	width: 55%;
+	font-size: 30px;
+	word-spacing: 40px;
+	background-color: #8b6d38;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+table {
+	position: absolute;
+	width: 35%;
+	height: 80px;
+	top: 600px;
+	left: 80px;
+	table-layout: fixed;
+}
+
+th {
+	background-color: #8b6d38;
+}
+
+td {
+	width: 20px;
+	height: 10%;
+}
+
+
+ .example {
+        position: relative;
+        padding: 0;
+        width: 300px;
+        display: block;
+        cursor: pointer;
+        overflow: hidden;
+      }
+	  
+ .content {
+        opacity: 0;
+        font-size: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #1c87c9;
+        background-color: rgba(200, 200, 200, 0.5);
+        width: 300px;
+        height: 300px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+        text-align: center;
+      }
+	  
+.example .content:hover {
+        opacity: 1;
+      }
+	  
+.example .content .text {
+        height: 0;
+        opacity: 1;
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+      }
+	  
+.example .content:hover .text {
+        opacity: 1;
+        transform: translateY(250px);
+        -webkit-transform: translateY(250px);
+      }
+
+footer {
+	position: absolute;
+	bottom: -250px;
+	width: 100%;
+	background-color: #eb3c3c;
+	text-align: center;
+}
